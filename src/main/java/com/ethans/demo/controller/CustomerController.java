@@ -16,7 +16,7 @@ public class CustomerController {
 
     @GetMapping("/sayHello")
     public String sayHello(){
-        return "Hello Radhe Krishna...!";
+        return "Hello Radhe Krishna...! How Are you ? Good Morning...!";
     }
 
 	@GetMapping("/sayHi")
